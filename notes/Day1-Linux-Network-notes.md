@@ -1,23 +1,19 @@
-# Network & System Monitor
+# Day 1 – Linux & Network Observation
 
-This project is a step-by-step journey into building
-automated system and network monitoring tools using Linux and Python.
+## System Info
+- OS:
+- Kernel:
+- User:
 
-## Vision
-To build lightweight tools that help monitor system health,
-network status, and infrastructure reliability.
+## Network Observations
+- Interface:
+- IP Address:
+- Default Gateway:
+- Ping result:
 
-## Phase 1 (Current)
-- Linux system observation
-- Network understanding
-- Manual checks
+## Open Ports
+- Observed using ss command
 
-## Future Plans
-- Python automation
-- Network health scripts
-- Resource monitoring
-- AI-based alerts (later)
-
-## Why this project?
-I am interested in systems engineering, DevOps, and
-AI-driven infrastructure.
+## Why this matters
+Understanding system and network state is the first step
+towards automation and monitoring.
