@@ -1,14 +1,20 @@
 import os
 from datetime import datetime
+import platform
 
-# ---------- CONFIG ----------
-server = "google.com"  # server to ping
+# CONFIG
+server = "google.com" 
 log_file = "network_log.txt"
 
-# ---------- FUNCTION ----------
+# Determine ping parameter based on OS
+param = "-n" if platform.system().lower() == "windows" else "-c"
+
+# FUNCTION
 def check_network():
     # Run ping command
-    response = os.system(f"ping -c 2 {server} > /dev/null 2>&1")
+    response = os.system(f"ping {param} 2 {server} > nul 2>&1")
+    if platform.system().lower() != "windows":
+        response = os.system(f"ping {param} 2 {server} > /dev/null 2>&1")
     
     # Timestamp
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -23,6 +29,6 @@ def check_network():
     with open(log_file, "a") as f:
         f.write(f"[{now}] {server} is {status}\n")
 
-# ---------- MAIN ----------
+# MAIN
 if __name__ == "__main__":
     check_network()
