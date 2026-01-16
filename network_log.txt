@@ -2,6 +2,8 @@
 # Format: [Timestamp] | Hostname | IP | CPU% | RAM% | Disk% | Network Status
 # All logs will be appended by automation scripts (Day 2 onwards)
 
-[2026-01-16 17:00:00] Day 1: Manual network observation started. Checked network interfaces and IP addresses.
+[2026-01-14 17:00:00] Day 1: Manual network observation started. Checked network interfaces and IP addresses.
 
-[2026-01-16 18:45:12] google.com is Reachable | Hostname: Devashish-PC | IP: 192.168.1.5
+[2026-01-15 19:45:12] google.com is Reachable | Hostname: Devashish-PC | IP: 192.168.1.5
+
+[2026-01-16 15:10:05] Host: Devashish-PC | IP: 192.168.1.5 | CPU: 23% | RAM: 45% | Disk: 60%
