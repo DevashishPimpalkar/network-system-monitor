@@ -22,7 +22,7 @@
 3. Ran the script to verify output:
    - Output example:
      ```
-     [2026-01-16 19:45:12] google.com is Reachable | Hostname: Devashish-PC | IP: 192.168.1.5
+     [2026-01-15 19:45:12] google.com is Reachable | Hostname: Devashish-PC | IP: 192.168.1.5
      ```
 4. Checked `network_log.txt` → confirmed all logs are recorded correctly.
 5. Committed `network_check.py` and `network_log.txt` to GitHub.
