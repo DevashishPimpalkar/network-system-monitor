@@ -1,6 +1,6 @@
 # Day 2 – Python Automation
 
-**Date:** 16-Jan-2026  
+**Date:** 15-Jan-2026  
 **Goal:** Automate network ping checks and log system info
 
 ---
